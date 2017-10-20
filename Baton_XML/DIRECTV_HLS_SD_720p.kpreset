@@ -1,0 +1,715 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<preset version='3.7.0.7'>
+   <time>2016-05-24 14:08:30</time>
+   <src>ATEME TITAN File Preset Designer 3.7.5 [4.7.5.1]</src>
+   <general>
+      <smart_video_audio_alignment enabled='false' />
+      <synchronize_timecodes enabled='false' />
+      <encoding_policy>speed</encoding_policy>
+      <strategy>overwrite</strategy>
+      <statistics enabled='false' md5='false' />
+   </general>
+   <video_track idx='1' name='6 Variants'>
+      <encoding idx='1' codec='avc'>
+         <input>
+            <deringing_filter enabled='false' />
+            <deblocking_filter enabled='false' />
+         </input>
+         <gop open='false' />
+         <display_aspect_ratio enabled='false' num='0' den='0' />
+         <frame_type>progressive</frame_type>
+         <field_order>passthrough</field_order>
+         <format>none</format>
+         <colorimetry>none</colorimetry>
+         <logos />
+         <crop enabled='false' top='0' left='0' width='0' height='0' if_width='0' if_height='0' />
+         <denoise type='disabled' strength='1' />
+         <dithering enabled='false' />
+         <prefs resize='bicubic' deinterlace='blend' detect_telecine='false' field_match='high' telecine='hard' />
+         <watermarking enabled='false' type='nexguard_pre_release'>
+            <nexguard_pre_release>
+               <strength>medium</strength>
+               <id>1</id>
+            </nexguard_pre_release>
+            <nexguard_streaming>
+               <strength>10</strength>
+               <sequence>main</sequence>
+            </nexguard_streaming>
+         </watermarking>
+         <rate_control>cbr</rate_control>
+         <avc>
+            <cpb size='1000' unit='ms' />
+            <quality ratio='best' optimization='visual' />
+            <bframe min='0' max='3' hierarchical='false' />
+            <deblocking enabled='true' offset='0' />
+            <tools entropy='cabac' encoding='frame' num_slices='1' weighted_prediction='false' />
+            <compatibility hrd='true' afd='false' eos='false' parameter_sets_on_key_frame_only='true' custom_matrices='true' frm_pack='passthrough' />
+            <userdata_sei enabled='false' uuid='' value='' />
+         </avc>
+         <variant idx='1'>
+            <cores>0</cores>
+            <frame_size enabled='true' width='400' height='224' />
+            <frame_rate enabled='true' num='15000' den='1000' />
+            <gop min='15' max='15' />
+            <avc profile='main' level='3_0'>
+               <compatibility max_num_ref_frames='4' />
+            </avc>
+            <subvariant idx='1'>
+               <bitrate target='125000' min='0' min_avg='0' max='4000000' max_avg='1500000' quality='500' />
+            </subvariant>
+         </variant>
+      </encoding>
+      <encoding idx='2' codec='avc'>
+         <input>
+            <deringing_filter enabled='false' />
+            <deblocking_filter enabled='false' />
+         </input>
+         <gop open='false' />
+         <display_aspect_ratio enabled='false' num='0' den='0' />
+         <frame_type>progressive</frame_type>
+         <field_order>passthrough</field_order>
+         <format>none</format>
+         <colorimetry>none</colorimetry>
+         <logos />
+         <crop enabled='false' top='0' left='0' width='0' height='0' if_width='0' if_height='0' />
+         <denoise type='disabled' strength='1' />
+         <dithering enabled='false' />
+         <prefs resize='bicubic' deinterlace='blend' detect_telecine='false' field_match='high' telecine='hard' />
+         <watermarking enabled='false' type='nexguard_pre_release'>
+            <nexguard_pre_release>
+               <strength>medium</strength>
+               <id>1</id>
+            </nexguard_pre_release>
+            <nexguard_streaming>
+               <strength>10</strength>
+               <sequence>main</sequence>
+            </nexguard_streaming>
+         </watermarking>
+         <rate_control>cbr</rate_control>
+         <avc>
+            <cpb size='1000' unit='ms' />
+            <quality ratio='best' optimization='visual' />
+            <bframe min='0' max='3' hierarchical='false' />
+            <deblocking enabled='true' offset='0' />
+            <tools entropy='cabac' encoding='frame' num_slices='1' weighted_prediction='false' />
+            <compatibility hrd='true' afd='false' eos='false' parameter_sets_on_key_frame_only='true' custom_matrices='true' frm_pack='passthrough' />
+            <userdata_sei enabled='false' uuid='' value='' />
+         </avc>
+         <variant idx='1'>
+            <cores>0</cores>
+            <frame_size enabled='true' width='544' height='304' />
+            <frame_rate enabled='true' num='15000' den='1000' />
+            <gop min='15' max='15' />
+            <avc profile='main' level='3_0'>
+               <compatibility max_num_ref_frames='4' />
+            </avc>
+            <subvariant idx='1'>
+               <bitrate target='225000' min='0' min_avg='0' max='4000000' max_avg='1500000' quality='500' />
+            </subvariant>
+         </variant>
+         <variant idx='2'>
+            <cores>0</cores>
+            <frame_size enabled='true' width='512' height='288' />
+            <frame_rate enabled='true' num='30000' den='1000' />
+            <gop min='30' max='30' />
+            <avc profile='main' level='3_0'>
+               <compatibility max_num_ref_frames='4' />
+            </avc>
+            <subvariant idx='1'>
+               <bitrate target='400000' min='0' min_avg='0' max='4000000' max_avg='1500000' quality='500' />
+            </subvariant>
+         </variant>
+         <variant idx='3'>
+            <cores>0</cores>
+            <frame_size enabled='true' width='656' height='368' />
+            <frame_rate enabled='true' num='30000' den='1000' />
+            <gop min='30' max='30' />
+            <avc profile='main' level='3_0'>
+               <compatibility max_num_ref_frames='4' />
+            </avc>
+            <subvariant idx='1'>
+               <bitrate target='650000' min='0' min_avg='0' max='4000000' max_avg='1500000' quality='500' />
+            </subvariant>
+         </variant>
+         <variant idx='4'>
+            <cores>0</cores>
+            <frame_size enabled='true' width='848' height='480' />
+            <frame_rate enabled='true' num='30000' den='1000' />
+            <gop min='30' max='30' />
+            <avc profile='main' level='3_1'>
+               <compatibility max_num_ref_frames='4' />
+            </avc>
+            <subvariant idx='1'>
+               <bitrate target='1100000' min='0' min_avg='0' max='4000000' max_avg='1500000' quality='500' />
+            </subvariant>
+         </variant>
+         <variant idx='5'>
+            <cores>0</cores>
+            <frame_size enabled='true' width='1088' height='608' />
+            <frame_rate enabled='true' num='30000' den='1000' />
+            <gop min='30' max='30' />
+            <avc profile='main' level='3_1'>
+               <compatibility max_num_ref_frames='4' />
+            </avc>
+            <subvariant idx='1'>
+               <bitrate target='1800000' min='0' min_avg='0' max='4000000' max_avg='1800000' quality='500' />
+            </subvariant>
+         </variant>
+         <variant idx='6'>
+            <cores>0</cores>
+            <frame_size enabled='true' width='1248' height='704' />
+            <frame_rate enabled='true' num='30000' den='1000' />
+            <gop min='30' max='30' />
+            <avc profile='main' level='3_1'>
+               <compatibility max_num_ref_frames='4' />
+            </avc>
+            <subvariant idx='1'>
+               <bitrate target='3000000' min='0' min_avg='0' max='4000000' max_avg='3000000' quality='500' />
+            </subvariant>
+         </variant>
+      </encoding>
+   </video_track>
+   <audio_track idx='1' mapping='mandatory' language='eng' type='undefined' role='main' name=''>
+      <encoding idx='1' passthrough='false' codec='aac'>
+         <input>
+            <decode_ac3prefs enabled='false'>
+               <drc>lineout</drc>
+               <pcm>100</pcm>
+               <cut>100</cut>
+               <boost>100</boost>
+            </decode_ac3prefs>
+         </input>
+         <dts_neural enabled='false'>
+            <downmix type='std' />
+         </dts_neural>
+         <loudness enabled='false' conformance='ebu_r128' mode='normalization'>
+            <metering type='itu_r_bs_1770_2'>
+               <dialog_intelligence enabled='false' speech_detection_threshold='100' />
+               <true_peak_dcblock enabled='true' />
+               <true_peak_emphasis enabled='true' />
+            </metering>
+            <normalization>
+               <target>-23</target>
+               <peak_limit>0</peak_limit>
+            </normalization>
+         </loudness>
+         <delay value='0' />
+         <aac profile='he' format='adtsMpeg4' layout='stereo'>
+            <tools tns='true' ms='true' />
+         </aac>
+         <variant idx='1'>
+            <sample_rate enabled='true' target='48000' />
+            <bitrate target='48000' />
+         </variant>
+      </encoding>
+      <encoding idx='2' passthrough='false' codec='aac'>
+         <input>
+            <decode_ac3prefs enabled='false'>
+               <drc>lineout</drc>
+               <pcm>100</pcm>
+               <cut>100</cut>
+               <boost>100</boost>
+            </decode_ac3prefs>
+         </input>
+         <dts_neural enabled='false'>
+            <downmix type='std' />
+         </dts_neural>
+         <loudness enabled='false' conformance='ebu_r128' mode='normalization'>
+            <metering type='itu_r_bs_1770_2'>
+               <dialog_intelligence enabled='false' speech_detection_threshold='100' />
+               <true_peak_dcblock enabled='true' />
+               <true_peak_emphasis enabled='true' />
+            </metering>
+            <normalization>
+               <target>-23</target>
+               <peak_limit>0</peak_limit>
+            </normalization>
+         </loudness>
+         <delay value='0' />
+         <aac profile='he' format='adtsMpeg4' layout='stereo'>
+            <tools tns='true' ms='true' />
+         </aac>
+         <variant idx='1'>
+            <sample_rate enabled='true' target='48000' />
+            <bitrate target='64000' />
+         </variant>
+      </encoding>
+      <encoding idx='3' passthrough='false' codec='aac'>
+         <input>
+            <decode_ac3prefs enabled='false'>
+               <drc>lineout</drc>
+               <pcm>100</pcm>
+               <cut>100</cut>
+               <boost>100</boost>
+            </decode_ac3prefs>
+         </input>
+         <dts_neural enabled='false'>
+            <downmix type='std' />
+         </dts_neural>
+         <loudness enabled='false' conformance='ebu_r128' mode='normalization'>
+            <metering type='itu_r_bs_1770_2'>
+               <dialog_intelligence enabled='false' speech_detection_threshold='100' />
+               <true_peak_dcblock enabled='true' />
+               <true_peak_emphasis enabled='true' />
+            </metering>
+            <normalization>
+               <target>-23</target>
+               <peak_limit>0</peak_limit>
+            </normalization>
+         </loudness>
+         <delay value='0' />
+         <aac profile='he' format='adtsMpeg4' layout='stereo'>
+            <tools tns='true' ms='true' />
+         </aac>
+         <variant idx='1'>
+            <sample_rate enabled='true' target='48000' />
+            <bitrate target='80000' />
+         </variant>
+      </encoding>
+   </audio_track>
+   <data_track idx='1' mapping='optional' language='' type='undefined' role='main' name='Nielsen tags'>
+      <encoding idx='1' passthrough='false' codec='nielsen_id3'>
+         <nielsen_id3 distributor_id='www.directv.com' breakout_code='0' />
+      </encoding>
+   </data_track>
+   <data_track idx='2' mapping='optional' language='' type='undefined' role='main' name='Closed Captions'>
+      <encoding idx='1' passthrough='true' codec='ccsub'>
+         <ccsub atsc='true' strip_atsc_padding='true' divicom='false' nadbs='false' scte20='false' scc_delay='0'>
+            <ignore atsc='false' divicom='false' nadbs='false' scte20='true' />
+         </ccsub>
+         <nielsen_id3 distributor_id='' breakout_code='0' />
+      </encoding>
+   </data_track>
+   <data_track idx='3' mapping='optional' language='ccone' type='undefined' role='main' name='WebVTT (Primary Language )'>
+      <encoding idx='1' passthrough='false' codec='webvtt'>
+         <webvtt forced='false' />
+         <nielsen_id3 distributor_id='' breakout_code='0' />
+      </encoding>
+   </data_track>
+   <data_track idx='4' mapping='optional' language='ccthree' type='undefined' role='main' name='WebVTT (Secondary Language )'>
+      <encoding idx='1' passthrough='false' codec='webvtt'>
+         <webvtt forced='false' />
+         <nielsen_id3 distributor_id='' breakout_code='0' />
+      </encoding>
+   </data_track>
+   <muxers>
+      <ts enabled='false'>
+         <id>0</id>
+         <program>0</program>
+         <pat period='0' />
+         <pmt period='0' pid='0' />
+         <compatibility padding='true' conformance_tables='true' audio_pes_align='false' dvb_au='false' pcr_on_pes='false' skip_empty_af='false' unconstrained_pes='false' ad_splicing='false' discontinuity_indicators='false' mpeg2_layer2_signaling='false' />
+         <chunking>
+            <fragment_duration>0</fragment_duration>
+         </chunking>
+         <conformance>mpeg</conformance>
+         <presentation idx='1'>
+            <stream idx='1' pid='0'>
+               <track type='video' id='1.1.1.1' />
+            </stream>
+            <stream idx='2' pid='0'>
+               <track type='video' id='1.2.1.1' />
+            </stream>
+            <stream idx='3' pid='0'>
+               <track type='video' id='1.2.2.1' />
+            </stream>
+            <stream idx='4' pid='0'>
+               <track type='video' id='1.2.3.1' />
+            </stream>
+            <stream idx='5' pid='0'>
+               <track type='video' id='1.2.4.1' />
+            </stream>
+            <stream idx='6' pid='0'>
+               <track type='video' id='1.2.5.1' />
+            </stream>
+            <stream idx='7' pid='0'>
+               <track type='video' id='1.2.6.1' />
+            </stream>
+            <stream idx='8' pid='0'>
+               <track type='audio' id='1.1.1' />
+            </stream>
+            <stream idx='9' pid='0'>
+               <track type='audio' id='1.2.1' />
+            </stream>
+            <stream idx='10' pid='0'>
+               <track type='audio' id='1.3.1' />
+            </stream>
+            <stream idx='11' pid='0'>
+               <track type='data' id='2.1' />
+            </stream>
+            <output idx='1'>
+               <media_path></media_path>
+               <stream_list></stream_list>
+            </output>
+         </presentation>
+      </ts>
+      <mp4 enabled='false'>
+         <large_mdat enabled='true' />
+         <hint_tracks enabled='false' />
+         <progressive enabled='false' />
+         <packet_size>0</packet_size>
+         <audio_granularity>0</audio_granularity>
+         <chunking>
+            <fragment_duration>0</fragment_duration>
+         </chunking>
+         <presentation idx='1'>
+            <stream idx='1' tid='0'>
+               <track type='video' id='1.1.1.1' />
+            </stream>
+            <stream idx='2' tid='0'>
+               <track type='video' id='1.2.1.1' />
+            </stream>
+            <stream idx='3' tid='0'>
+               <track type='video' id='1.2.2.1' />
+            </stream>
+            <stream idx='4' tid='0'>
+               <track type='video' id='1.2.3.1' />
+            </stream>
+            <stream idx='5' tid='0'>
+               <track type='video' id='1.2.4.1' />
+            </stream>
+            <stream idx='6' tid='0'>
+               <track type='video' id='1.2.5.1' />
+            </stream>
+            <stream idx='7' tid='0'>
+               <track type='video' id='1.2.6.1' />
+            </stream>
+            <stream idx='8' tid='0'>
+               <track type='audio' id='1.1.1' />
+            </stream>
+            <stream idx='9' tid='0'>
+               <track type='audio' id='1.2.1' />
+            </stream>
+            <stream idx='10' tid='0'>
+               <track type='audio' id='1.3.1' />
+            </stream>
+            <stream idx='11' tid='0'>
+               <track type='data' id='2.1' />
+            </stream>
+            <output idx='1'>
+               <media_path></media_path>
+               <stream_list></stream_list>
+            </output>
+         </presentation>
+      </mp4>
+      <hls enabled='true'>
+         <chunking>
+            <fragment_duration>4</fragment_duration>
+            <subtitle_fragment_duration>4</subtitle_fragment_duration>
+         </chunking>
+         <ts>
+            <id>0</id>
+            <program>0</program>
+            <pmt pid='0' />
+            <compatibility padding='true' num_aus_per_audio_pes='0' />
+         </ts>
+         <presentation idx='1'>
+            <master_playlist_path>%OUTPUT_NAME%.m3u8</master_playlist_path>
+            <base_url></base_url>
+            <protocol version='5'>
+               <independant_media_storage enabled='false' />
+               <use_byte_range enabled='false' />
+               <write_version enabled='false' />
+               <write_codecs enabled='true' />
+               <write_fragment_duration_in_milliseconds enabled='false' />
+               <write_resolution enabled='false' />
+               <default_audio_track>0</default_audio_track>
+               <default_subtitle_track>0</default_subtitle_track>
+               <closed_captions>
+                  <signal_services enabled='false' />
+                  <default_service>none</default_service>
+               </closed_captions>
+            </protocol>
+            <stream idx='1' pid='481'>
+               <track type='video' id='1.1.1.1' />
+            </stream>
+            <stream idx='2' pid='481'>
+               <track type='video' id='1.2.1.1' />
+            </stream>
+            <stream idx='3' pid='481'>
+               <track type='video' id='1.2.2.1' />
+            </stream>
+            <stream idx='4' pid='481'>
+               <track type='video' id='1.2.3.1' />
+            </stream>
+            <stream idx='5' pid='481'>
+               <track type='video' id='1.2.4.1' />
+            </stream>
+            <stream idx='6' pid='481'>
+               <track type='video' id='1.2.5.1' />
+            </stream>
+            <stream idx='7' pid='481'>
+               <track type='video' id='1.2.6.1' />
+            </stream>
+            <stream idx='8' pid='482'>
+               <track type='audio' id='1.1.1' />
+            </stream>
+            <stream idx='9' pid='482'>
+               <track type='audio' id='1.2.1' />
+            </stream>
+            <stream idx='10' pid='482'>
+               <track type='audio' id='1.3.1' />
+            </stream>
+            <stream idx='11' pid='0'>
+               <track type='data' id='1.1' />
+            </stream>
+            <stream idx='12' pid='0'>
+               <track type='data' id='2.1' />
+            </stream>
+            <stream idx='13' pid='0'>
+               <track type='data' id='3.1' />
+               <playlist_path>WebVTT1/%OUTPUT_NAME%_7.m3u8</playlist_path>
+               <media_path>WebVTT1/%OUTPUT_NAME%_7_.vtt</media_path>
+            </stream>
+            <stream idx='14' pid='0'>
+               <track type='data' id='4.1' />
+               <playlist_path>WebVTT2/%OUTPUT_NAME%_8.m3u8</playlist_path>
+               <media_path>WebVTT2/%OUTPUT_NAME%_8_.vtt</media_path>
+            </stream>
+            <profile idx='1'>
+               <playlist_path>HLS2/%OUTPUT_NAME%_2.m3u8</playlist_path>
+               <media_path>HLS2/%OUTPUT_NAME%_2_.ts</media_path>
+               <stream_list>3,8,11,12,13,14</stream_list>
+            </profile>
+            <profile idx='2'>
+               <playlist_path>HLS3/%OUTPUT_NAME%_3.m3u8</playlist_path>
+               <media_path>HLS3/%OUTPUT_NAME%_3_.ts</media_path>
+               <stream_list>4,9,11,12,13,14</stream_list>
+            </profile>
+            <profile idx='3'>
+               <playlist_path>HLS4/%OUTPUT_NAME%_4.m3u8</playlist_path>
+               <media_path>HLS4/%OUTPUT_NAME%_4_.ts</media_path>
+               <stream_list>5,9,11,12,13,14</stream_list>
+            </profile>
+            <profile idx='4'>
+               <playlist_path>HLS5/%OUTPUT_NAME%_5.m3u8</playlist_path>
+               <media_path>HLS5/%OUTPUT_NAME%_5_.ts</media_path>
+               <stream_list>6,10,11,12,13,14</stream_list>
+            </profile>
+            <profile idx='5'>
+               <playlist_path>HLS6/%OUTPUT_NAME%_6.m3u8</playlist_path>
+               <media_path>HLS6/%OUTPUT_NAME%_6_.ts</media_path>
+               <stream_list>7,10,11,12,13,14</stream_list>
+            </profile>
+            <profile idx='6'>
+               <playlist_path>HLS0/%OUTPUT_NAME%_0.m3u8</playlist_path>
+               <media_path>HLS0/%OUTPUT_NAME%_0_.ts</media_path>
+               <stream_list>1,8,11,12,13,14</stream_list>
+            </profile>
+            <profile idx='7'>
+               <playlist_path>HLS1/%OUTPUT_NAME%_1.m3u8</playlist_path>
+               <media_path>HLS1/%OUTPUT_NAME%_1_.ts</media_path>
+               <stream_list>2,8,11,12,13,14</stream_list>
+            </profile>
+            <drm enabled='false' type='apple_drm'>
+               <apple_drm mode='CBC' autogenerated='false'>
+                  <key mode='AES_128' type='Hexa'>
+                     <data></data>
+                     <path></path>
+                  </key>
+                  <uri></uri>
+               </apple_drm>
+            </drm>
+         </presentation>
+      </hls>
+      <smoothstreaming enabled='false'>
+         <chunking>
+            <video_fragment_duration>2</video_fragment_duration>
+            <audio_fragment_duration>5</audio_fragment_duration>
+            <subtitle_fragment_duration>60</subtitle_fragment_duration>
+         </chunking>
+         <presentation idx='1'>
+            <features>
+               <subtitle_encapsulation>mp4</subtitle_encapsulation>
+            </features>
+            <manifests write='true'>
+               <server_manifest_path></server_manifest_path>
+               <client_manifest_path></client_manifest_path>
+            </manifests>
+            <stream idx='1'>
+               <track type='video' id='1.1.1.1' />
+               <media_path></media_path>
+            </stream>
+            <stream idx='2'>
+               <track type='video' id='1.2.1.1' />
+               <media_path></media_path>
+            </stream>
+            <stream idx='3'>
+               <track type='video' id='1.2.2.1' />
+               <media_path></media_path>
+            </stream>
+            <stream idx='4'>
+               <track type='video' id='1.2.3.1' />
+               <media_path></media_path>
+            </stream>
+            <stream idx='5'>
+               <track type='video' id='1.2.4.1' />
+               <media_path></media_path>
+            </stream>
+            <stream idx='6'>
+               <track type='video' id='1.2.5.1' />
+               <media_path></media_path>
+            </stream>
+            <stream idx='7'>
+               <track type='video' id='1.2.6.1' />
+               <media_path></media_path>
+            </stream>
+            <stream idx='8'>
+               <track type='audio' id='1.1.1' />
+               <media_path></media_path>
+            </stream>
+            <stream idx='9'>
+               <track type='audio' id='1.2.1' />
+               <media_path></media_path>
+            </stream>
+            <stream idx='10'>
+               <track type='audio' id='1.3.1' />
+               <media_path></media_path>
+            </stream>
+            <stream idx='11'>
+               <track type='data' id='2.1' />
+               <media_path></media_path>
+            </stream>
+            <stream_list></stream_list>
+            <drm enabled='false' type='playready'>
+               <playready>
+                  <key_id></key_id>
+                  <key_type>content</key_type>
+                  <key_value></key_value>
+                  <license_url></license_url>
+                  <service_id></service_id>
+               </playready>
+               <conax>
+                  <key_server_url></key_server_url>
+                  <resource_id></resource_id>
+               </conax>
+            </drm>
+         </presentation>
+      </smoothstreaming>
+      <dash enabled='false'>
+         <chunking>
+            <video_fragment_duration>4</video_fragment_duration>
+            <audio_fragment_duration>4</audio_fragment_duration>
+            <subtitle_fragment_duration>60</subtitle_fragment_duration>
+            <timescale>90000</timescale>
+         </chunking>
+         <presentation idx='1'>
+            <features subtitle_encapsulation='mp4'>
+               <video_codec_switching enabled='true' />
+               <audio_codec_switching enabled='true' />
+            </features>
+            <media_presentation_description profile='live'>
+               <path></path>
+               <base_url></base_url>
+               <url_template>index_based</url_template>
+            </media_presentation_description>
+            <stream idx='1'>
+               <track type='video' id='1.1.1.1' />
+               <representation_id></representation_id>
+               <media_path></media_path>
+               <init_segment_path></init_segment_path>
+               <drm_list></drm_list>
+            </stream>
+            <stream idx='2'>
+               <track type='video' id='1.2.1.1' />
+               <representation_id></representation_id>
+               <media_path></media_path>
+               <init_segment_path></init_segment_path>
+               <drm_list></drm_list>
+            </stream>
+            <stream idx='3'>
+               <track type='video' id='1.2.2.1' />
+               <representation_id></representation_id>
+               <media_path></media_path>
+               <init_segment_path></init_segment_path>
+               <drm_list></drm_list>
+            </stream>
+            <stream idx='4'>
+               <track type='video' id='1.2.3.1' />
+               <representation_id></representation_id>
+               <media_path></media_path>
+               <init_segment_path></init_segment_path>
+               <drm_list></drm_list>
+            </stream>
+            <stream idx='5'>
+               <track type='video' id='1.2.4.1' />
+               <representation_id></representation_id>
+               <media_path></media_path>
+               <init_segment_path></init_segment_path>
+               <drm_list></drm_list>
+            </stream>
+            <stream idx='6'>
+               <track type='video' id='1.2.5.1' />
+               <representation_id></representation_id>
+               <media_path></media_path>
+               <init_segment_path></init_segment_path>
+               <drm_list></drm_list>
+            </stream>
+            <stream idx='7'>
+               <track type='video' id='1.2.6.1' />
+               <representation_id></representation_id>
+               <media_path></media_path>
+               <init_segment_path></init_segment_path>
+               <drm_list></drm_list>
+            </stream>
+            <stream idx='8'>
+               <track type='audio' id='1.1.1' />
+               <representation_id></representation_id>
+               <media_path></media_path>
+               <init_segment_path></init_segment_path>
+               <drm_list></drm_list>
+            </stream>
+            <stream idx='9'>
+               <track type='audio' id='1.2.1' />
+               <representation_id></representation_id>
+               <media_path></media_path>
+               <init_segment_path></init_segment_path>
+               <drm_list></drm_list>
+            </stream>
+            <stream idx='10'>
+               <track type='audio' id='1.3.1' />
+               <representation_id></representation_id>
+               <media_path></media_path>
+               <init_segment_path></init_segment_path>
+               <drm_list></drm_list>
+            </stream>
+            <stream idx='11'>
+               <track type='data' id='2.1' />
+               <representation_id></representation_id>
+               <media_path></media_path>
+               <init_segment_path></init_segment_path>
+            </stream>
+            <stream idx='12'>
+               <track type='data' id='3.1' />
+               <representation_id></representation_id>
+               <media_path></media_path>
+               <init_segment_path></init_segment_path>
+               <drm_list></drm_list>
+            </stream>
+            <stream idx='13'>
+               <track type='data' id='4.1' />
+               <representation_id></representation_id>
+               <media_path></media_path>
+               <init_segment_path></init_segment_path>
+               <drm_list></drm_list>
+            </stream>
+            <stream_list></stream_list>
+         </presentation>
+      </dash>
+   </muxers>
+   <thumbnail idx='1' width='130' height='76'>
+      <associated_video_track>1.2.6.1</associated_video_track>
+      <associated_muxer>hls</associated_muxer>
+      <sprite row='7' column='100' />
+      <metadata>
+         <exif_user_comment enabled='true' />
+         <xml_file enabled='false' path='' />
+      </metadata>
+      <picture_selection mode='total_number' value='700' />
+      <output path='Sprite/%OUTPUT_NAME%_sprite_.jpeg' numbering_type='index' format='jpeg' />
+   </thumbnail>
+   <metadata>
+      <brief>Update on 5/24/16 for Ateme 3.7.5.0 by Jeong Lim (DIRECTV_HLS_SD_720p)</brief>
+      <description></description>
+   </metadata>
+</preset>
